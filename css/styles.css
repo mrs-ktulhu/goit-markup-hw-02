@@ -1,0 +1,76 @@
+:root {
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+}
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: roboto;
+}
+.list {
+    list-style: none;
+}
+
+/* Логотип */
+.logo-link {
+    color: var(--accent-color);
+}
+.logo-header {
+    color: #000000;
+}
+
+/* Навігація */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color:var(--accent-color);
+}
+
+/* Ел. Адреса + номер */
+.contacts a{
+    color:var(--primary-text-color)
+}
+.contacts a:hover,
+.contacts a:focus {
+    color:var(--accent-color)
+}
+
+/* Заголовки */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Блок-герой */
+.hero-title {
+    color: #fff;
+}
+
+/* Переваги/особливості */
+.benefits .title {
+    color: var(--title-text-color);
+}
+
+/* Спеціалісти */
+.people .title {
+    color: var(--title-text-color);
+}
+
+/* Футер адреса + номер/ел.пошта */
+.address a {
+ color: rgba(255, 255, 255, 0.6);
+}
+.address-city {
+    color: #fff;
+}
+
+/* Кнопка в блоці герой */
+.button-hero {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
