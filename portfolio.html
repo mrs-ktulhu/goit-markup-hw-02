@@ -7,25 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
 </head>
 
 <body class="page">
 
     <!-- Хедер -->
-    <header>
+    <header class="page-header">
         <nav>
-            <a class="logo-link" href="/index.html">Web<span class="logo-header">Studio</span></a>
-
+            <a class="logo link" href="/index.html">Web<span class="logo-header">Studio</span></a>
+    
             <ul class="site-nav list">
                 <li><a href="./index.html" class="link ">Студія</a> </li>
-                <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                <li><a href="" class="link current">Портфоліо</a></li>
                 <li><a href="" class="link">Контакти</a></li>
             </ul>
-
+    
         </nav>
-        <ul class="contacts list">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contact list">
+            <li><a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="contact-link link">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -33,7 +34,7 @@
     <main>
     <section>
     
-        <h1 class="portfolio-title hidden">Portfolio</h1>
+        <h1 class="portfolio-title hidden" hidden>Portfolio</h1>
         <!-- навигация по категориям -->
         <ul class="nav list">
             <li><button type="button" class="nav-button">Усі</button></li>
@@ -45,7 +46,7 @@
 
         <!-- фото -->
         <ul class="projects list">
-            <li class="project-item">
+            <li>
                 <a href="" class="link">
                     <img src="./images/projects-img/tehnokryak.jpg" alt="Ноутбук" width="370" />
                     <h2 class="project-title">Технокряк</h2>
@@ -112,16 +113,16 @@
         </section>
     </main>
     <!-- Футер -->
-    <footer>
-    <a class="logo-link" href="/index.html">Web<span class="logo-header">Studio</span></a>
-    <address>
-        <ul class="address list">
-            <li class="address-city"><a href="#">м. Київ, пр-т Лесі Українки, 26</a> </li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </address>
-</footer>
+    <footer class="footer">
+        <a class="logo link" href="/index.html">Web<span class="logo-footer">Studio</span></a>
+        <address>
+            <ul class="address list">
+                <li><a href="" class="address-street link">м. Київ, пр-т Лесі Українки, 26</a> </li>
+                <li><a href="mailto:info@devstudio.com" class="address-contact link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="address-contact link">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
 </body>
 
 </html>
