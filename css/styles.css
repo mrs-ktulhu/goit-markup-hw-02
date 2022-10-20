@@ -28,8 +28,7 @@ a {
     font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
 }
 .logo-header {
     color: #000000;
@@ -91,6 +90,10 @@ a {
     border: none;
     border-radius: 4px;
 }
+.hero-button:focus,
+.hero-button:hover{
+    background-color: #188CE8;
+}
 
 /* Переваги/особливості */
 .visually-hidden {
@@ -107,13 +110,12 @@ a {
     color: var(--title-text-color);
     font-weight: 700;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     text-align: left;
+    font-size: 14px;
 }
 .benefits-text {
     color: var(--main-text-color);
     line-height: 1.7;
-    letter-spacing: 0.03em;
     text-align: left;
 }
 /* чим займаэмося */
@@ -123,7 +125,6 @@ a {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -134,7 +135,6 @@ a {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 
 .team-member {
@@ -143,7 +143,6 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 
 .team-job {
@@ -151,7 +150,6 @@ a {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 
 /* Футер адреса + номер/ел.пошта */
@@ -160,8 +158,7 @@ a {
     font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
 }
 .footer {
     background-color: #2f303a;
@@ -169,11 +166,14 @@ a {
 .address  {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;
-    letter-spacing: 0.03em;
     font-style: normal;
 }
 .address-street {
     color: #fff;
+}
+.address-street:hover,
+.address-street:focus{
+    color: var(--accent-color);
 }
 .address-contact{
     color: rgba(255, 255, 255, 0.6);
@@ -191,7 +191,6 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
-    letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
     border: none;
@@ -218,5 +217,4 @@ a {
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
 }
